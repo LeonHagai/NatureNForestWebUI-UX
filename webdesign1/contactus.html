@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="body"  style="background-image: url('data/forest5.jpg');">
+      <div class="navbar">
+        <div class="logo">
+          <img src="data/bg_img3.png" alt="" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active-link"><a href="contactus.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="user">
+          <p>Responsive Web Design</p>
+          <img src="data/ic_lion.jpg" alt="data/" style="border-radius: 10px" />
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <img src="data/ic_search.png" alt="Search" class="search-icon" />
+
+        <div class="social-link">
+          <img src="data/ic_fb.png" alt="Facebook" />
+          <img src="data/ic_insta2.jpg" alt="Instagram" />
+          <img src="data/ic_linkedin.png" alt="LinkedIn" />
+        </div>
+        <img src="data/ic_info.png" alt="Information Icon" class="info-icon" />
+      </div>
+
+      <div class="msg-container"> 
+        <div id="slider">
+          <div class="msg-col-contact">
+            <h2>Contact Us</h2>
+            
+            <!-- contact form -->
+            <form action="index.html" method="post">
+              <div class="input-group">
+                <label for="formLabel">Name :</label>
+                <input type="text" class="contact-input" placeholder="Name">
+              </div>
+              <div class="input-group">
+                <label for="formLabel">Email :</label>
+                <input type="email" class="contact-input" placeholder="Email">
+              </div>
+              <!-- <div class="input-group">
+                <label for="formLabel">What is it about :</label>
+                <select class="contact-input">
+                  <option>It's about .... :</option>
+                  <option value="">Forest Conservation and Preservation</option>
+                  <option value="">Forestry Events</option>
+                  <option value="">Forestry Congratulations</option>
+                </select>
+              </div> -->
+              <div class="input-group">
+                <label for="formLabel">What's on your mind...</label>
+                <textarea name="" id="" cols="10" rows="5" placeholder="Say something...."></textarea>
+              </div>
+              <div class="input-group">
+                <button>Submit</button>
+              </div>
+            </form>
+            <!-- end contact form -->
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </body>
+</html>
